@@ -1,0 +1,15 @@
+{
+  "name": "localstack-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "https://github.com/mvayngrib/serverless#localstack"
+  },
+  "scripts": {
+    "deploy:local": "IS_LOCAL=1 serverless deploy"
+  },
+  "dependencies": {
+    "serverless": "github:mvayngrib/serverless#localstack"
+  }
+}
