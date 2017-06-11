@@ -38,3 +38,7 @@ functions:
           path: hello/b
           method: post
           cors: true
+  invoker:
+    handler: invoker.handler
+  failtest:
+    handler: failtest.handler
